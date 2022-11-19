@@ -1,14 +1,13 @@
 Just a simple setup to quickly deploy dotfiles in my kali linux pentesting machines.
 This rice is intented to keep everything simple, minimalist and consistent, in order to have a clean and eye-pleasant working environment.
 
-
-
+### Install i3-gaps
+`sudo apt install i3-gaps polybar rofi nvim feh`
 
 ### Apply color palette
-```
-pip install pywal
-wal --theme ~/.config/palette.json  
-```
+Install pywal `pip install pywal`
+Add wal to PATH `echo 'export PATH"$HOME/bin:$PATH"'`
+Apply the color palette `wal --theme ~/.config/palette.json`
 
 ### Apply environmental fonts
 make a `/usr/fonts/local.conf` containing
@@ -38,7 +37,6 @@ change with any fonts you like
 ### Wallpaper
 I use the [kali-linux-wallpaper-v7.png](https://raw.githubusercontent.com/dorianpro/kaliwallpapers/master/kali-linux-wallpaper-v7.png) from https://github.com/dorianpro/kali-linux-wallpapers. Put it in $HOME/Pictures/Wallpapers/ and apply with feh
 ```
-sudo apt -y install feh
 feh --bg-fill $HOME/Pictures/Wallpapers/kali-linux-wallpaper-v7.png
 ```
 
