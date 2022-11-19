@@ -35,3 +35,7 @@ make a `/usr/fonts/local.conf` containing
 
 ### Wallpaper
 I use the [kali-linux-wallpaper-v7.png](https://raw.githubusercontent.com/dorianpro/kaliwallpapers/master/kali-linux-wallpaper-v7.png) from https://github.com/dorianpro/kali-linux-wallpapers, and put it in $HOME/Pictures/Wallpapers/
+
+###to-do
+[ ] .zshrc
+[ ] login page
