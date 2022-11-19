@@ -2,7 +2,7 @@ Just a simple setup to quickly deploy dotfiles in my kali linux pentesting machi
 This rice is intented to keep everything simple, minimalist and consistent, in order to have a clean and eye-pleasant working environment.
 
 ### Install i3-gaps and other required programs
-`sudo apt install i3-gaps polybar rofi nvim feh`
+`sudo apt install i3-gaps polybar rofi nvim kitty feh`
 
 ### Rofi adjustment
 Edit .config/rofi/config.rasi changing $HOME with your home directory
