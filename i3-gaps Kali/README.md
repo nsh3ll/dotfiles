@@ -1,4 +1,5 @@
 Just a simple setup to quickly deploy dotfiles in my kali linux pentesting machines.
+This rice is intented to keep everything simple, minimalist end consistent, in order to have a clean and eye-pleasant working environment.
 
 
 
