@@ -16,6 +16,7 @@ Enter nvim and install the plugins `:PlugInstall`
 Install pywal `pip install pywal`.
 
 Add wal to PATH writing `export PATH="$HOME/bin:$PATH"'` in your ~/.bashrc or ~/.zshrc file
+Make color scheme persistent at reboot adding `(cat ~/.cache/wal/sequences &)` in your ~/.bashrc or ~/.zshrc file
 
 Apply the color palette `wal --theme ~/.config/palette.json`
 
