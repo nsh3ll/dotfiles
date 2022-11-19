@@ -5,8 +5,10 @@ This rice is intented to keep everything simple, minimalist and consistent, in o
 `sudo apt install i3-gaps polybar rofi nvim feh`
 
 ### Apply color palette
-Install pywal `pip install pywal`
+Install pywal `pip install pywal`.
+
 Add wal to PATH writing `export PATH="$HOME/bin:$PATH"'` in your ~/.bashrc or ~/.zshrc file
+
 Apply the color palette `wal --theme ~/.config/palette.json`
 
 ### Apply environmental fonts
