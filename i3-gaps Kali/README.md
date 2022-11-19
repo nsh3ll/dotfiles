@@ -7,7 +7,7 @@ wal --theme ~/.config/palette.json
 ```
 
 ### Apply environmental fonts
-make a `/usr/fonts/local.conf`
+make a `/usr/fonts/local.conf` containing
 ```
 <?html version="1.0"?>
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
