@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-fill '$HOME/Pictures/Wallpapers/kali-linux-wallpaper-v7.png'
