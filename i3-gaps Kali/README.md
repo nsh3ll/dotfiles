@@ -1,8 +1,16 @@
 Just a simple setup to quickly deploy dotfiles in my kali linux pentesting machines.
 This rice is intented to keep everything simple, minimalist and consistent, in order to have a clean and eye-pleasant working environment.
 
-### Install i3-gaps
+### Install i3-gaps and other required programs
 `sudo apt install i3-gaps polybar rofi nvim feh`
+
+### Rofi adjustment
+Edit .config/rofi/config.rasi changing $HOME with your home directory
+
+
+### Install Vim-Plugs
+`curl -fLo ~/.vim/autoload/plug.vim --create-dirs \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim`
+Enter nvim and install the plugins `:PlugInstall`
 
 ### Apply color palette
 Install pywal `pip install pywal`.
