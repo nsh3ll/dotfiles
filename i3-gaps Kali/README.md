@@ -6,7 +6,7 @@ This rice is intented to keep everything simple, minimalist and consistent, in o
 
 ### Apply color palette
 Install pywal `pip install pywal`
-Add wal to PATH `echo 'export PATH"$HOME/bin:$PATH"'`
+Add wal to PATH writing `export PATH="$HOME/bin:$PATH"'` in your ~/.bashrc or ~/.zshrc file
 Apply the color palette `wal --theme ~/.config/palette.json`
 
 ### Apply environmental fonts
