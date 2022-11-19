@@ -19,6 +19,8 @@ Add wal to PATH writing `export PATH="$HOME/bin:$PATH"'` in your ~/.bashrc or ~/
 
 Apply the color palette `wal --theme ~/.config/palette.json`
 
+`cat ~/.cache/wal/sequence &`
+
 ### Apply environmental fonts
 make a `/usr/fonts/local.conf` containing
 ```
