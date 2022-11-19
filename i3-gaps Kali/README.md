@@ -1,4 +1,6 @@
-Just a simple repo to quickly deploy dotfiles in to a kali linux pentesting machine
+Just a simple setup to quickly deploy dotfiles in my kali linux pentesting machines.
+
+
 
 
 ### Apply color palette
@@ -29,3 +31,7 @@ make a `/usr/fonts/local.conf` containing
     </match>
 </fontconfig>
 ```
+
+### Wallpaper
+I use the 7th of https://github.com/dorianpro/kali-linux-wallpapers
+https://raw.githubusercontent.com/dorianpro/kaliwallpapers/master/kali-linux-wallpaper-v7.png
