@@ -6,6 +6,7 @@ This rice is intented to keep everything simple, minimalist end consistent, in o
 
 ### Apply color palette
 ```
+pip install pywal
 wal --theme ~/.config/palette.json  
 ```
 
@@ -35,7 +36,11 @@ make a `/usr/fonts/local.conf` containing
 change with any fonts you like
 
 ### Wallpaper
-I use the [kali-linux-wallpaper-v7.png](https://raw.githubusercontent.com/dorianpro/kaliwallpapers/master/kali-linux-wallpaper-v7.png) from https://github.com/dorianpro/kali-linux-wallpapers, and put it in $HOME/Pictures/Wallpapers/
+I use the [kali-linux-wallpaper-v7.png](https://raw.githubusercontent.com/dorianpro/kaliwallpapers/master/kali-linux-wallpaper-v7.png) from https://github.com/dorianpro/kali-linux-wallpapers. Put it in $HOME/Pictures/Wallpapers/ and apply with feh
+```
+sudo apt -y install feh
+feh --bg-fill $HOME/Pictures/Wallpapers/kali-linux-wallpaper-v7.png
+```
 
 ### to-do
 - [ ] .zshrc
